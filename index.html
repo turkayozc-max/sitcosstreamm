@@ -8,31 +8,31 @@
 <style>
 body {
     margin: 0;
-    background: #0b0b0b;
+    background-color: #141414;
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
-    padding: 24px 40px;
-}
-
-header img {
-    height: 48px;
-}
-
-.section {
     padding: 20px 40px;
 }
 
+header img {
+    height: 45px;
+}
+
+.section {
+    padding: 10px 40px 30px;
+}
+
 .section h2 {
-    font-size: 22px;
-    margin-bottom: 16px;
+    font-size: 20px;
+    margin-bottom: 12px;
 }
 
 .row {
     display: flex;
-    gap: 20px;
+    gap: 16px;
     overflow-x: auto;
 }
 
@@ -41,17 +41,19 @@ header img {
 }
 
 .card {
-    min-width: 220px;
-    transition: transform 0.3s ease;
+    min-width: 160px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card img {
     width: 100%;
-    border-radius: 14px;
+    border-radius: 6px;
 }
 
 .card:hover {
-    transform: scale(1.15);
+    transform: scale(1.25);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+    z-index: 10;
 }
 </style>
 </head>
@@ -63,56 +65,24 @@ header img {
 </header>
 
 <div class="section">
-<h2>Iconic Sitcoms</h2>
+<h2>Classic Sitcoms</h2>
 <div class="row">
-
-<a class="card" href="https://www.youtube.com/watch?v=Yn0l4p6mFTo" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Seinfeld_S1_DVD.jpg">
-</a>
-
-<a class="card" href="https://www.youtube.com/watch?v=TYR6ERu5A8A" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/0/0e/Friends_season_one_cast.jpg">
-</a>
-
-<a class="card" href="https://www.youtube.com/watch?v=K40YyN6RrTg" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/1/1c/How_I_Met_Your_Mother_season_1_DVD.jpg">
-</a>
-
-<a class="card" href="https://www.youtube.com/watch?v=V0uYqf6Xq8c" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/6/6b/The_Office_US_season_1_DVD.jpg">
-</a>
-
-<a class="card" href="https://www.youtube.com/watch?v=3u7EIiohs6U" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/2/21/Parks_and_Recreation_season_one.jpg">
-</a>
-
+<a class="card" href="https://www.youtube.com/watch?v=TYR6ERu5A8A" target="_blank"><img src="covers/friends.jpg"></a>
+<a class="card" href="https://www.youtube.com/watch?v=K40YyN6RrTg" target="_blank"><img src="covers/himym.jpg"></a>
+<a class="card" href="https://www.youtube.com/watch?v=Yn0l4p6mFTo" target="_blank"><img src="covers/seinfeld.jpg"></a>
+<a class="card" href="https://www.youtube.com/watch?v=V0uYqf6Xq8c" target="_blank"><img src="covers/office.jpg"></a>
+<a class="card" href="https://www.youtube.com/watch?v=nr3pX9z8WZk" target="_blank"><img src="covers/b99.jpg"></a>
 </div>
 </div>
 
 <div class="section">
 <h2>Modern Favorites</h2>
 <div class="row">
-
-<a class="card" href="https://www.youtube.com/watch?v=nr3pX9z8WZk" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/8/8b/Brooklyn_Nine-Nine_season_1.jpg">
-</a>
-
-<a class="card" href="https://www.youtube.com/watch?v=KZpsd5kzM8Y" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/9/9e/The_Big_Bang_Theory_season_1_DVD.jpg">
-</a>
-
-<a class="card" href="https://www.youtube.com/watch?v=Rg0wZ1YJkqI" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/3/35/Modern_Family_season_1.jpg">
-</a>
-
-<a class="card" href="https://www.youtube.com/watch?v=2wqJ8QpJw1k" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/4/4b/Community_season_1.jpg">
-</a>
-
-<a class="card" href="https://www.youtube.com/watch?v=6N0o7w3S0PM" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Scrubs_season_1_DVD.jpg">
-</a>
-
+<a class="card" href="https://www.youtube.com/watch?v=Rg0wZ1YJkqI" target="_blank"><img src="covers/modernfamily.jpg"></a>
+<a class="card" href="https://www.youtube.com/watch?v=2wqJ8QpJw1k" target="_blank"><img src="covers/community.jpg"></a>
+<a class="card" href="https://www.youtube.com/watch?v=3u7EIiohs6U" target="_blank"><img src="covers/parks.jpg"></a>
+<a class="card" href="https://www.youtube.com/watch?v=6N0o7w3S0PM" target="_blank"><img src="covers/scrubs.jpg"></a>
+<a class="card" href="https://www.youtube.com/watch?v=KZpsd5kzM8Y" target="_blank"><img src="covers/bigbang.jpg"></a>
 </div>
 </div>
 
