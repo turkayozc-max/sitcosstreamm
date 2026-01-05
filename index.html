@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SitCo</title>
+
+<style>
+body {
+    margin: 0;
+    background: #0f0f0f;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header img {
+    height: 50px;
+}
+
+.section {
+    padding: 20px 40px;
+}
+
+.section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    min-width: 220px;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: scale(1.12);
+    z-index: 2;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <!-- LOGO -->
+    <img src="logo.png" alt="SitCo Logo">
+</header>
+
+<div class="section">
+    <h2>Classic Sitcoms</h2>
+    <div class="row">
+
+        <a class="card" href="https://www.youtube.com/watch?v=Yn0l4p6mFTo" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjQ1ZTQ0NjAtZTAxYi00ZDJlLTg1ZTAtZWMzMTc0N2JmNTJlXkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_.jpg">
+        </a>
+
+        <a class="card" href="https://www.youtube.com/watch?v=TYR6ERu5A8A" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjM2NTI3MDg4M15BMl5BanBnXkFtZTgwMDU1NjM0MDE@._V1_.jpg">
+        </a>
+
+        <a class="card" href="https://www.youtube.com/watch?v=3u7EIiohs6U" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA5NzYxNzYxN15BMl5BanBnXkFtZTcwOTQ4MDg0MQ@@._V1_.jpg">
+        </a>
+
+        <a class="card" href="https://www.youtube.com/watch?v=K40YyN6RrTg" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTY1ODc5MDg1OF5BMl5BanBnXkFtZTcwNTU1MzY0NA@@._V1_.jpg">
+        </a>
+
+        <a class="card" href="https://www.youtube.com/watch?v=V0uYqf6Xq8c" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA0NjA1NDM0NF5BMl5BanBnXkFtZTcwMzYzNjM0MQ@@._V1_.jpg">
+        </a>
+
+    </div>
+</div>
+
+<div class="section">
+    <h2>Modern Sitcoms</h2>
+    <div class="row">
+
+        <a class="card" href="https://www.youtube.com/watch?v=nr3pX9z8WZk" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTYzODU4Njk5OV5BMl5BanBnXkFtZTcwMzY5NzY3NA@@._V1_.jpg">
+        </a>
+
+        <a class="card" href="https://www.youtube.com/watch?v=KZpsd5kzM8Y" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjE1NzY4NzM0NF5BMl5BanBnXkFtZTcwNTk0NTU0NA@@._V1_.jpg">
+        </a>
+
+        <a class="card" href="https://www.youtube.com/watch?v=6N0o7w3S0PM" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjMzMzY5NTU3Nl5BMl5BanBnXkFtZTgwMzY1NjE3MjE@._V1_.jpg">
+        </a>
+
+        <a class="card" href="https://www.youtube.com/watch?v=Rg0wZ1YJkqI" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjE4NzU5NzE1OV5BMl5BanBnXkFtZTgwNzQ0NzQzNzE@._V1_.jpg">
+        </a>
+
+        <a class="card" href="https://www.youtube.com/watch?v=2wqJ8QpJw1k" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTQ4NTQyNjY3Nl5BMl5BanBnXkFtZTgwNjU2NzY3MjE@._V1_.jpg">
+        </a>
+
+    </div>
+</div>
+
+</body>
+</html>
